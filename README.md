@@ -32,4 +32,4 @@ The steps include:
 This project was rewarding in a number of ways:
 - Tensorflow 2.0. The tutorial from the Udemy course was somewhat outdated so that it employed TF 1.x code. As I had installed the most recent TF library, I decided to translate the old code provided by the tutorial into TF 2.x code. This allowed me to compare the two and clearly see how much simpler the TF 2.x library is.
 - OpenCV: while I had worked with TF and images previously, this was the first time using OpenCV and doing extensive image preprocessing prior to submitting the images to a model
-- JavaScript: this was my first time writing scripts in JavaScript and using the console for debugging. I JS found surprisingly simple to navigate using my Python knowledge.
+- JavaScript: this was my first time writing scripts in JavaScript and using the console for debugging. I found JS surprisingly simple to navigate using my Python knowledge.
