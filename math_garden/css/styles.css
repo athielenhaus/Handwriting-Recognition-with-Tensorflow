@@ -10,13 +10,13 @@ background-size: cover;
 /* TODO: Styling by html elemnt: add styling for h1 and h2 */
 h1, h2 {
   font-weight: 400;
-  font-size: 200px;
+  font-size: 180px;
 }
 
-/* TODO: Styling by id: add styling for #title */
+/* Add styling for #title */
 #title {
   color: #fc8c93;
-  line-height: 50px ;
+  line-height: 40px ;
 }
 
 #question {
@@ -24,7 +24,7 @@ h1, h2 {
   color: #FFFFFF;
 }
 
-/* TODO: Styling by id: add styling for canvas */
+/* Add styling for canvas */
 #my-canvas {
   vertical-align: center;
   display: inline;
@@ -36,7 +36,7 @@ h1, h2 {
 
 .container {
   text-align: center;
-  margin: 50px auto;
+  margin: 40px auto;
 }
 
 .btn {
@@ -46,11 +46,11 @@ h1, h2 {
   border-width: 0;
 	cursor:pointer;
 	color:#242E6B;
-  line-height: 70px;
+  line-height: 60px;
 	font-family:'Just Another Hand', cursive;
-	font-size:70px;
+	font-size:60px;
   letter-spacing: 3px;
-	padding:13px 32px 0 32px;
+	padding:13px 32px 0 32px;   /* top, right, bottom, left */
   text-align: center;
 	text-decoration:none;
 }
