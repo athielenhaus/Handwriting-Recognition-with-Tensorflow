@@ -1,4 +1,4 @@
-# TF-Handwriting-Recognition
+# Handwriting Recognition with Tensorflow
  
 This project is the result of a tutorial from a Udemy course ("Complete 2022 Data Science & Machine Learning Bootcamp" by Appbrewery).
 
