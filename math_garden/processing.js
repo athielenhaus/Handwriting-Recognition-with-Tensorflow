@@ -96,9 +96,12 @@ function predictImage() {
     // console.log(`Type of tensor: ${X.dtype}`);
 
     const result = model.predict(X)
-    result.print()
-    
+    // result.print()
+
     // console.log(tf.memory())
+
+    // get tensor value
+    const output = result.dataSync();  // datasync returns array - we only need first value
 
     // Testing Only
     // const outputCanvas = document.createElement('canvas')
@@ -109,6 +112,6 @@ function predictImage() {
     image.delete(); contours.delete(); hierarchy.delete(); M.delete();
     X.dispose(); result.dispose();
 
-    
+    return output;
 
 }

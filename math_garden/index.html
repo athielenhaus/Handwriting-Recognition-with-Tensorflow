@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang='en'>
 
 <head>
@@ -16,6 +17,7 @@
   <script src='vendor/opencv.js'></script>
   <script src='drawing.js'></script>
   <script src='processing.js'></script>
+  <script src='math.js'></script>
 
 </head>
 
@@ -43,10 +45,12 @@
   <script>
     loadModel()
     prepareCanvas();
+    nextQuestion();
 
     document.getElementById('checkAnswer').addEventListener('click', function () {
-      predictImage();
+      checkAnswer();
       clearCanvas();
+      nextQuestion();
     });
   </script>
 
