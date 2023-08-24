@@ -42,13 +42,13 @@ h1, h2 {
 .btn {
   margin: 10px;
 	background-color:#FFFFFF;
-	border-radius:20px;
+	border-radius:10px;
   border-width: 0;
 	cursor:pointer;
 	color:#242E6B;
-  line-height: 60px;
+  line-height: 50px;
 	font-family:'Just Another Hand', cursive;
-	font-size:60px;
+	font-size:50px;
   letter-spacing: 3px;
 	padding:13px 32px 0 32px;   /* top, right, bottom, left */
   text-align: center;
