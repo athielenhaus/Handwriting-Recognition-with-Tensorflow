@@ -4,7 +4,7 @@ This project is the result of a tutorial from a Udemy course ("Complete 2022 Dat
 
 The objectives of this project were to:
 - use Tensorflow to create a neural network model to recognize numbers from images of handwritten numbers
-- apply this model on a website to recognize handwritten numbers
+- apply this model on a website to recognize numbers written by the website user with a cursor.
 
 Primary tools used:
 - for Model Development: Python, Tensorflow and Keras
