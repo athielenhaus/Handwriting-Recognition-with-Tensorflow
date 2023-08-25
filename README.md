@@ -1,3 +1,5 @@
+![Math Garden Screenshot](mg_screenshot.png)
+
 # Handwriting Recognition with Tensorflow and Model Deployment on a Website
  
 This project was created as part of a Udemy course, "Complete 2022 Data Science & Machine Learning Bootcamp", by Appbrewery.
