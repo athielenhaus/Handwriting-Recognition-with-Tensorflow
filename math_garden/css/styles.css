@@ -26,6 +26,8 @@ h1, h2 {
 
 /* Add styling for canvas */
 #my-canvas {
+  width: 150px;
+  height: 150px;
   vertical-align: center;
   display: inline;
   border: 5px solid #FFFFFF;
