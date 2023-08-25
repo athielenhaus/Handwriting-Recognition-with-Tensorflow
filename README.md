@@ -1,12 +1,14 @@
-# Handwriting Recognition with Tensorflow
+# Handwriting Recognition with Tensorflow and Model Deployment on a Website
  
-This project is the result of a tutorial from a Udemy course ("Complete 2022 Data Science & Machine Learning Bootcamp" by Appbrewery).
+This project was created as part of a Udemy course, "Complete 2022 Data Science & Machine Learning Bootcamp", by Appbrewery.
 
-The objectives of this project were to:
+__Project Objectives:__
 - use Tensorflow to create a neural network model to recognize numbers from images of handwritten numbers
 - apply this model on a website to recognize numbers written by the website user with a cursor.
 
-Primary tools used:
+Check out the final website [here](https://athielenhaus.github.io/Handwriting-Recognition-with-Tensorflow/)!
+
+__Primary tools used:__
 - for Model Development: Python, Tensorflow and Keras
 - for Website Development and Model Deployment: Javascript, HTML, CSS, Tensorflow.js, OpenCV
 
