@@ -48,8 +48,8 @@ function prepareCanvas() {
             //currentY = event.clientY - canvas.offsetTop;
 
             var rect = canvas.getBoundingClientRect();
-            currentX = event.touches[0].clientX - rect.left;
-            currentY = event.touches[0].clientY - rect.top;
+            currentX = event.clientX - rect.left;
+            currentY = event.clientY - rect.top;
 
             draw();
         }
