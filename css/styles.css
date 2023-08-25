@@ -1,21 +1,22 @@
 body {
-font-family: 'Just Another Hand', cursive;
-background-color: #242E6B;
+/* font-family: 'Just Another Hand', cursive;*/
+font-family: 'Bricolage Grotesque', cursive;
+background-color: #35461d;
 width: 100%;
 background-position: top;
 background-repeat: no-repeat;
 background-size: cover;
 }
 
-/* TODO: Styling by html elemnt: add styling for h1 and h2 */
+/* Add styling for h1 and h2 */
 h1, h2 {
   font-weight: 400;
   font-size: 200px;
 }
 
-/* TODO: Styling by id: add styling for #title */
+/* Add styling for #title */
 #title {
-  color: #fc8c93;
+  color: #a47c64;
   line-height: 50px ;
 }
 
@@ -24,7 +25,7 @@ h1, h2 {
   color: #FFFFFF;
 }
 
-/* TODO: Styling by id: add styling for canvas */
+/* Add styling for canvas */
 #my-canvas {
   height: 150px;
   width: 150px;
@@ -47,7 +48,7 @@ h1, h2 {
 	border-radius:20px;
   border-width: 0;
 	cursor:pointer;
-	color:#242E6B;
+	color:#585f6b;
   line-height: 70px;
 	font-family:'Just Another Hand', cursive;
 	font-size:70px;
@@ -59,6 +60,6 @@ h1, h2 {
 
 /* TODO: Styling by class: add Styling for button on hover */
 .btn:hover {
-  background-color: #242E6B;
+  background-color: #585f6b;
   color: #FFFFFF;
 }
