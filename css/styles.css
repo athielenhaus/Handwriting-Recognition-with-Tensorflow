@@ -1,6 +1,6 @@
 body {
 /* font-family: 'Just Another Hand', cursive;*/
-font-family: 'Bricolage Grotesque', cursive;
+font-family: 'Bricolage Grotesque';
 background-color: #35461d;
 width: 100%;
 background-position: top;
@@ -10,7 +10,7 @@ background-size: cover;
 
 /* Add styling for h1 and h2 */
 h1, h2 {
-  font-weight: 400;
+  font-weight: 200;
   font-size: 200px;
 }
 
@@ -50,7 +50,7 @@ h1, h2 {
 	cursor:pointer;
 	color:#585f6b;
   line-height: 70px;
-	font-family:'Just Another Hand', cursive;
+	font-family:'Bricolage Grotesque';
 	font-size:70px;
   letter-spacing: 3px;
 	padding:13px 32px 0 32px;
@@ -58,7 +58,7 @@ h1, h2 {
 	text-decoration:none;
 }
 
-/* TODO: Styling by class: add Styling for button on hover */
+/* Add Styling for button on hover */
 .btn:hover {
   background-color: #585f6b;
   color: #FFFFFF;
