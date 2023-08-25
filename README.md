@@ -17,7 +17,7 @@ __Primary tools used:__
 ## Model Creation:
 
 
-## Website Development and Model Deployment:
+## Website Development, Image Processing with OpenCV and Model Deployment:
 This part of the project involved creating an online Math game in which the user must solve simple Math problems. The user must add up the two indicated numbers and write the response on a canvas using the mouse as "chalk". 
 
 The steps include:
