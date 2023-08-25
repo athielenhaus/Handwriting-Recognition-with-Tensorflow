@@ -28,13 +28,13 @@ function prepareCanvas() {
     canvas.addEventListener('mousedown', function (event) {
         // console.log('Mouse Pressed!');
         isPainting = true;
-        currentX = event.clientX - canvas.offsetLeft;
-        currentY = event.clientY - canvas.offsetTop;
+        //currentX = event.clientX - canvas.offsetLeft;
+        //currentY = event.clientY - canvas.offsetTop;
 
         // try this to fix misalignment between cursor and canvas
-        //var rect = canvas.getBoundingClientRect();
-        //currentX = event.clientX - rect.left;
-        //currentY = event.clientY - rect.top;
+        var rect = canvas.getBoundingClientRect();
+        currentX = event.clientX - rect.left;
+        currentY = event.clientY - rect.top;
 
     });
 
@@ -42,10 +42,14 @@ function prepareCanvas() {
 
         if (isPainting) {
             previousX = currentX;
-            currentX = event.clientX - canvas.offsetLeft;
+            //currentX = event.clientX - canvas.offsetLeft;
 
             previousY = currentY;
-            currentY = event.clientY - canvas.offsetTop;
+            //currentY = event.clientY - canvas.offsetTop;
+
+            var rect = canvas.getBoundingClientRect();
+            currentX = event.touches[0].clientX - rect.left;
+            currentY = event.touches[0].clientY - rect.top;
 
             draw();
         }
@@ -68,13 +72,13 @@ function prepareCanvas() {
     canvas.addEventListener('touchstart', function (event) {
         // console.log('Touchdown!');
         isPainting = true;
-        currentX = event.touches[0].clientX - canvas.offsetLeft;
-        currentY = event.touches[0].clientY - canvas.offsetTop;
+        //currentX = event.touches[0].clientX - canvas.offsetLeft;
+        //currentY = event.touches[0].clientY - canvas.offsetTop;
 
         // try this to fix misalignment between cursor and canvas
-        //var rect = canvas.getBoundingClientRect();
-        //currentX = event.touches[0].clientX - rect.left;
-        //currentY = event.touches[0].clientY - rect.top;
+        var rect = canvas.getBoundingClientRect();
+        currentX = event.touches[0].clientX - rect.left;
+        currentY = event.touches[0].clientY - rect.top;
 
     });
 
@@ -92,10 +96,14 @@ function prepareCanvas() {
 
         if (isPainting) {
             previousX = currentX;
-            currentX = event.touches[0].clientX - canvas.offsetLeft;
+            //currentX = event.touches[0].clientX - canvas.offsetLeft;
 
             previousY = currentY;
-            currentY = event.touches[0].clientY - canvas.offsetTop;
+            //currentY = event.touches[0].clientY - canvas.offsetTop;
+
+            var rect = canvas.getBoundingClientRect();
+            currentX = event.touches[0].clientX - rect.left;
+            currentY = event.touches[0].clientY - rect.top;
 
             draw();
         }
