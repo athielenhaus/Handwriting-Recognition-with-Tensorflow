@@ -15,7 +15,7 @@ __Primary tools used:__
 - for Website Development and Model Deployment: Javascript, HTML, CSS, Tensorflow.js, OpenCV
 
 ## Model Creation:
-
+<img src="images/model.png" alt="Tensorflow Model" style="width:270px;"/>
 
 ## Website Development, Image Processing with OpenCV and Model Deployment:
 This part of the project involved creating an online Math game in which the user must solve simple Math problems. The user must add up the two indicated numbers and write the response on a canvas using the mouse as "chalk". 
