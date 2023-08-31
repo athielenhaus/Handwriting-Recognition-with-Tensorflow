@@ -21,7 +21,7 @@ For this project, the well-known [MNIST dataset of handwritten digits](https://e
 The steps taken included:  
 - Scale images and one-hot encode target values
 - Split training data into training and validation (validation set size = 10,000)
-- Neural Network Setup including definition of layers, activation functions and hyperparameters
+- Setup neural network, including defining layers, activation functions and hyperparameters
 - Define batch size and train model
 - Evaluate accuracy and test prediction with sample image
 
