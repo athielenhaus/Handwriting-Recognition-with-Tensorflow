@@ -15,7 +15,7 @@ __Primary tools used:__
 - for Website Development and Model Deployment: Javascript, HTML, CSS, Tensorflow.js, OpenCV
 
 ## Model Creation:
-For this project, a prepared dataset of 70,000 images of handwritten digits was used. The dataset already includes a training set (60,000 images) and test set (10,000 images). The data is provided in CSV format.
+For this project, a prepared dataset of 70,000 images of handwritten digits was used. The dataset already includes a training set (60,000 images) and test set (10,000 images). The data was provided in CSV format.
 
 The steps taken included:
 
