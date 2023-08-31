@@ -14,22 +14,28 @@ __Primary tools used:__
 - for Model Development: Python, Tensorflow and Keras
 - for Website Development and Model Deployment: Javascript, HTML, CSS, Tensorflow.js, OpenCV
 
-## Model Creation:
+## Model Development:
 For this project, a prepared dataset of 70,000 images of handwritten digits was used. The dataset already includes a training set (60,000 images) and test set (10,000 images). The data was provided in CSV format.
 
-The steps taken included:
-
-- Loading data
-- Scale images
-- One-hot encode target values
+The steps taken included:  
+- Scale images and one-hot encode target values
 - Split training data into training and validation (validation set size = 10,000)
 - Neural Network Setup including definition of layers, activation functions and hyperparameters
 - Define batch size and train model
 - Evaluate accuracy and test prediction with sample image
 
-The model achieved a high accuracy on the test set, > 0.98. Therefore, no additional time was invested in further tuning the model.
+__Model Architecture__  
+The model architecture involves the following:  
+- Input layer: size 784, corresponding to the size of the images (28 x 28)
+- 2 hidden dense layers with relu activation and a dropout layer (20%) in between. The first hidden layer has a size of 512 neurons and the second a size of 64. 
+- Output layer: dense layer with softmax activation and a size corresponding to the number of classes (10).
 
+The architecture is visualized in the diagram below:  
 <img src="images/model.png" alt="Tensorflow Model" style="width:270px;"/>
+
+__Model Evaluation__  
+The model achieved a high accuracy on the test set, > 0.98. Therefore, no additional time was invested in further tuning the model.  
+<img src="images/prediction.png" alt="Model Prediction" style="width:400px;"/>
 
 ## Website Development, Image Processing with OpenCV and Model Deployment:
 This part of the project involved creating an online Math game in which the user must solve simple Math problems. The user must add up the two indicated numbers and write the response on a canvas using the mouse as "chalk". 
