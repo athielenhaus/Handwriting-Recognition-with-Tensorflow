@@ -12,10 +12,11 @@ Check out the final website [here](https://athielenhaus.github.io/Handwriting-Re
 
 __Primary tools used:__
 - for Model Development: Python, Tensorflow and Keras
-- for Website Development and Model Deployment: Javascript, HTML, CSS, Tensorflow.js, OpenCV
+- for Website Development and Model Deployment: Javascript, HTML, CSS, Tensorflow.js
+- for Image Preprocessing: OpenCV
 
 ## Model Development:
-For this project, a prepared dataset of 70,000 images of handwritten digits was used. The dataset already includes a training set (60,000 images) and test set (10,000 images). The data was provided in CSV format.
+For this project, the well-known [MNIST dataset of handwritten digits](https://en.wikipedia.org/wiki/MNIST_database) was used. The dataset includes a training set of 60,000 images and test set of 10,000 images. The data is provided in CSV format.
 
 The steps taken included:  
 - Scale images and one-hot encode target values
