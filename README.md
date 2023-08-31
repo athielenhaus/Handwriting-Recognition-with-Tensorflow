@@ -25,7 +25,7 @@ The steps taken included:
 - Define batch size and train model
 - Evaluate accuracy and test prediction with sample image
 
-__Model Architecture__  
+#### Model Architecture  
 The model architecture involves the following:  
 - Input layer: size 784, corresponding to the size of the images (28 x 28)
 - 2 hidden dense layers with relu activation and a dropout layer (20%) in between. The first hidden layer has a size of 512 neurons and the second a size of 64. 
@@ -34,8 +34,8 @@ The model architecture involves the following:
 The architecture is visualized in the diagram below:  
 <img src="images/model.png" alt="Tensorflow Model" style="width:270px;"/>
 
-__Model Evaluation__  
-The model achieved a high accuracy on the test set, > 0.98. Therefore, no additional time was invested in further tuning the model.  
+#### Model Evaluation  
+The model achieved a high accuracy on the test set, > 0.98. Therefore, no additional time was invested in further tuning the model. The screenshot below shows the testing of the model on a sample image.  
 <img src="images/prediction.png" alt="Model Prediction" style="width:400px;"/>
 
 ## Website Development, Image Processing with OpenCV and Model Deployment:
@@ -54,10 +54,14 @@ The steps include:
 - add gaming logic, i.e. compare prediction with correct answer, track score and add bells and whistles in the form of plant images
 
 ## Conclusion
-This project was rewarding in a number of ways:
+Besides being a good review of neural network architecture and implementation, the project was rewarding in a number of additional ways:
 - Tensorflow 2.0. The tutorial from the Udemy course was somewhat outdated so that it employed TF 1.x code. As I had installed the most recent TF library, I decided to translate the old code provided by the tutorial into TF 2.x code. This allowed me to compare the two and clearly see how much simpler the TF 2.x library is.
+- Online deployment of model: this was the first time I deployed an ML model to be used on a live website.
 - OpenCV: while I had worked with TF and images previously, this was the first time using OpenCV and doing extensive image preprocessing prior to submitting the images to a model
-- JavaScript: this was my first time writing scripts in JavaScript and using the console for debugging. I found JS surprisingly simple to navigate using my Python knowledge.
+- JavaScript: this was my first time writing scripts in JavaScript and using the Google Developer console for debugging. I found JS surprisingly simple to navigate using my Python knowledge.
 
 ## Next Steps
 One could add a layer of complexity to the game by increasing the number of possible digits. For example, the user could be asked a math question such as "45 + 23" and would write "68" as a response. In this scenario, the image preprocessing would have to include an additional step where the contours of more than 1 object must be detected and each object would subsequently have to be wrapped, cropped, centered, padded and scaled separately. 
+
+Thanks for reading! Special thanks goes out to the team at Appbrewery for providing interesting projects in their Udemy course. 
+In case of questions or comments, please do not hesitate to drop me a line at arne.thielenhaus@gmail.com.
