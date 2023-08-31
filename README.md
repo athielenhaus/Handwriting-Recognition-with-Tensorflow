@@ -1,4 +1,4 @@
-![Math Jungle Screenshot](mg_screenshot.png)
+![Math Jungle Screenshot](mj_screenshot.png)
 
 # Math Jungle - recognizing handwritten digits on a website with Tensorflow
  
