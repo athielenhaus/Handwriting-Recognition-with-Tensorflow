@@ -22,7 +22,7 @@ function checkAnswer() {
         score ++;
         console.log(`Correct! Score: ${score}`);
         if (score <= 6) {
-            backgroundImages.push(`url('images/background${score}.svg')`);
+            backgroundImages.push(`url('images/bg/background${score}.svg')`);
             }
         else {
             alert("Congratulations, you win!")
