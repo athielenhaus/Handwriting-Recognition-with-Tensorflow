@@ -42,7 +42,7 @@ The model achieved a high accuracy on the test set, > 0.98. Therefore, no additi
 This part of the project involved creating an online Math game in which the user must solve simple Math problems. The user must add up the two indicated numbers and write the response on a canvas using the mouse as "chalk". 
 
 The steps include:
-- translate model to tensorflow.js and import into website
+- translate the saved ML model to tensorflow.js - due to the different dependencies of the tensorflowjs library, the conversion required a different environment than the training
 - create a UI to display the math question and provide a canvas and submit button to get user input
 - use OpenCV to create an image from the user input and preprocess it in the same manner as the other images in the training dataset, i.e.
   - apply grayscale
