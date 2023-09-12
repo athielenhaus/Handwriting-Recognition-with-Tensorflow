@@ -11,6 +11,7 @@ __Project Objectives:__
 Check out the final website hosted on GitHub pages [here](https://athielenhaus.github.io/Handwriting-Recognition-with-Tensorflow/)! For hosting purposes, a seperate [web page branch](https://github.com/athielenhaus/Handwriting-Recognition-with-Tensorflow/tree/webpage_branch) was created which only contains the files required by the web app. 
 
 __Primary tools used:__
+- Jupyter Notebook operating in Conda Environment (also experimented with Google Colab Notebook to test training with GPU)
 - for Model Development: Python, Tensorflow and Keras
 - for Website Development and Model Deployment: Javascript, HTML, CSS, Tensorflow.js
 - for Image Preprocessing: OpenCV
@@ -53,12 +54,12 @@ The steps include:
 - submit image to model to generate a prediction
 - add gaming logic, i.e. compare prediction with correct answer, track score and add bells and whistles in the form of plant images
 
-## Conclusion
+## Conclusion and Learnings
 Besides being a good review of neural network architecture and implementation, the project was rewarding in a number of additional ways:
+- I used a Jupyter Notebook operating in a Conda environment to create the Tensorflow model. This was convenient in that I did not have to worry about the internet connection and reuploading resources everytime I used the notebook. However, experimenting with Google Colab Notebooks was also interesting, as all the tools needed for this project were already preinstalled, and using the free GPU resources I was able to train the model in only 30 seconds, significantly faster than on my CPU. The main drawback was having to reupload the data, which was very slow. 
 - Tensorflow 2.0. The tutorial from the Udemy course was somewhat outdated so that it employed TF 1.x code. As I had installed the most recent TF library, I decided to translate the old code provided by the tutorial into TF 2.x code. This allowed me to compare the two and clearly see how much simpler the TF 2.x library is.
-- Online deployment of model: this was the first time I deployed an ML model to be used on a live website.
+- Online model deployment and using JavaScript: this was the first project in which I deployed an ML model to be used on a live website, also the first project in which I wrote scripts in JavaScript and used the Google Developer console for debugging. I found JS surprisingly simple to navigate using my Python knowledge.
 - OpenCV: while I had worked with TF and images previously, this was the first time using OpenCV and doing extensive image preprocessing prior to submitting the images to a model
-- JavaScript: this was my first time writing scripts in JavaScript and using the Google Developer console for debugging. I found JS surprisingly simple to navigate using my Python knowledge.
 
 ## Next Steps
 One could add a layer of complexity to the game by increasing the number of possible digits. For example, the user could be asked a math question such as "45 + 23" and would write "68" as a response. In this scenario, the image preprocessing would have to include an additional step where the contours of more than 1 object must be detected and each object would subsequently have to be wrapped, cropped, centered, padded and scaled separately. 
