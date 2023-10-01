@@ -1,6 +1,6 @@
 ![Math Jungle Screenshot](images/mj_screenshot.png)
 
-# Math Jungle - recognizing handwritten digits on a website with Tensorflow
+# Math Jungle - recognizing handwritten digits on a website with Tensorflow and OpenCV
  
 __Project Objectives:__
 - use Tensorflow to create a neural network model to recognize numbers from images of handwritten numbers
