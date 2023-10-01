@@ -2,8 +2,6 @@
 
 # Math Jungle - recognizing handwritten digits on a website with Tensorflow
  
-This project was created as part of a Udemy course.
-
 __Project Objectives:__
 - use Tensorflow to create a neural network model to recognize numbers from images of handwritten numbers
 - apply this model on a website to recognize numbers written by the website user with a cursor.
