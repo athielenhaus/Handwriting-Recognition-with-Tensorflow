@@ -6,7 +6,7 @@ __Project Objectives:__
 - use Tensorflow to create a neural network model to recognize numbers from images of handwritten numbers
 - deploy this model on a website to recognize numbers written by the website user with a cursor.
 
-Check out the final website hosted on GitHub pages [here](https://athielenhaus.github.io/Handwriting-Recognition-with-Tensorflow/)! For hosting purposes, a seperate [web page branch](https://github.com/athielenhaus/Handwriting-Recognition-with-Tensorflow/tree/webpage_branch) was created which only contains the files required by the web app. 
+Check out the final website hosted on GitHub pages [here](https://athielenhaus.github.io/Handwriting-Recognition-with-Tensorflow-and-OpenCV/)! For hosting purposes, a seperate [web page branch](https://github.com/athielenhaus/Handwriting-Recognition-with-Tensorflow/tree/webpage_branch) was created which only contains the files required by the web app. 
 
 __Primary tools used:__
 - Jupyter Notebook operating in Conda Environment (also experimented with Google Colab Notebook to test training with GPU)
